@@ -16,3 +16,8 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: pink;
 }
+
+html{
+    font-family: sans-serif;
+    color: salmon;
+}
