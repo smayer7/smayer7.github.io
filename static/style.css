@@ -1,0 +1,249 @@
+body {
+    /*font-family: 'Verdana', sans-serif;*/
+    margin: 50px 25px;
+    background:#fff;
+}
+
+a {
+    color: #D4C823; 
+}
+
+a:hover {
+    color: #BED78C;
+}
+a: visited { 
+    color: #624A47; 
+}
+
+
+body h1{
+    color: #000;
+    margin: 0;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Vesper Libre';
+}
+
+h2 {
+    margin-bottom:5px;
+}
+
+
+body h2 a{
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Quattrocento sans';
+    :5px;
+}
+
+body h3{
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: 'Quattrocento sans';
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+footer, div.page {
+    max-width:800px;
+    margin-left: 20%;
+    /*background: #daeef3;*/
+    padding: 20px 30px;
+}
+
+header {
+    margin-left:15px;
+    margin-top: 15px;
+    height: 100%; /* 100% Full-height */
+    width:20%;
+    max-width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*overflow-y:scroll;*/
+    padding-top: 20px; /* Place content 60px from the top */
+    padding: 15px;
+    vertical-align:baseline; 
+    
+}
+
+
+
+/*Remove header on mobile*/
+@media screen and (max-width: 600px) {
+    header {
+        display:none;
+    }
+
+    footer, div.page {
+        width: 100%;
+        margin: 0;
+    }
+
+    .projects{
+    width:100%;
+    }
+
+    body {
+        margin:0;
+    }
+}
+
+header h1 {
+
+    margin: 0;
+    font-weight: 25;
+    font-size: 25px;
+    font-family: 'Vesper Libre';
+}
+
+header h2 { 
+    margin: 0; 
+    font-size: 15px; 
+    font-weight: lighter; 
+    font-family: 'Quattrocento Sans'
+    
+    
+}
+
+header h1 a {
+    text-underline: none;
+    color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'quattrocento sans';
+    font-weight: lighter; 
+    
+}
+
+header nav ul li {
+    display: block;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    
+}
+
+header p {
+    margin:12px;
+}
+
+div.page {
+
+}
+
+div.page img {
+    margin:20px;
+    width:900px;
+    border-style: none;
+    max-width:90%;
+}
+
+
+
+div.page p {
+    max-width:600px;
+   line-height: 115%;
+    margin-left:20px;
+
+}
+
+div.page h1 {
+    margin-left:10px;
+}
+
+div.page sub, sup { line-height: 0.1em; }
+
+
+.projects img {
+    margin:20px;
+    max-width:200px;
+    border-style: none;
+}
+.projects {
+    display:flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100vw;
+    max-width: 1000px;
+    /*column-count:2;*/
+
+}
+
+.project{
+    break-inside: avoid;
+    background: #F2F3F2;
+    max-width:370px;
+    margin:10px;
+    padding-left:0px;
+    padding-top:0px;
+    border-style:none; 
+    
+
+}
+
+.project h2{
+padding-left:5px;
+    padding-top:5px;
+    padding-bottom:3px;
+    margin:0px;
+    background:#F2F3F2;
+    font-family: 'quattrocento sans'; 
+    font-weight: 'lighter';
+    font-size: 14px;
+    color: #7C897B;
+}
+
+.project hr{
+    margin-top:0px;
+    margin-left:0px;
+    width:100%;
+    color:#000;
+    border-style:none; 
+}
+
+p.meta {
+    font-family: 'quattrocento sans'; 
+    font-size:12px;
+    font-weight: 100;
+    color:#888;
+    margin-left:50px;
+    margin-top:5px;
+}
+div#info{
+    background:#f1fbfe;
+    padding:10px;
+
+}
+
+div#right{
+
+}
+
+.imagesmall{
+    max-width:400px;
+}
+
+.caption{
+    max-width:400px;
+    font-style:normal;
+    margin-left:20px;
+
+.image{
+
+}
+
+
+    
